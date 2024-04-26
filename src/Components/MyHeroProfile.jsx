@@ -3,7 +3,7 @@ import ProfileImage from "../Assets/avatar.png"
 
 const MyHeroProfile = () => {
   return (
-    <Container className=" pt-4 border-bottom mb-5">
+    <Container className=" pt-4 ">
       <Row
         xs={12}
         sm={6}
@@ -12,12 +12,12 @@ const MyHeroProfile = () => {
         // className=" row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4"
       >
         <Col lg={3} className="d-none d-lg-block "></Col>
-        <Col sm={3} md={2} lg={2} className="col ">
+        <Col sm={3} md={2} lg={2} className="border-bottom mb-5">
           <div>
             <img src={ProfileImage} alt="avatar" width="100%" />
           </div>
         </Col>
-        <Col sm={9} md={8} lg={6} className="col  ">
+        <Col sm={9} md={8} lg={6} className=" border-bottom mb-5  ">
           <div className="d-flex flex-column">
             <div>
               <h1 className="border-bottom w-100 text-light ">Edit Profile</h1>
