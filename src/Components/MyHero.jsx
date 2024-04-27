@@ -1,7 +1,7 @@
 import { Component } from "react"
 import { Container, Dropdown } from "react-bootstrap"
 import FirstGallery from "./FirstGallery"
-
+// importiamo la nostra galleria precendemente creata perchè qui nell asezione principale verrà poi montata
 class MyHero extends Component {
   render() {
     return (
@@ -35,6 +35,8 @@ class MyHero extends Component {
             <i className="bi bi-grid-3x3 icons"></i>
           </div>
         </div>
+        {/* qui viene richiamata la nostra galleria, richaimando un solo componente possiamo avere diverse gallerie */}
+        {/* questo avviene grazie alle props , in cui abbiamo reso dinamicco l'ultimo valore della nostra API */}
         <h4>Trending Now</h4>
         <FirstGallery film={"Star Wars"} />
         <h4>Horror</h4>

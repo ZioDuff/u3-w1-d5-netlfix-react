@@ -2,7 +2,8 @@ import Container from "react-bootstrap/Container"
 import Nav from "react-bootstrap/Nav"
 import Navbar from "react-bootstrap/Navbar"
 import NetflixLogo from "../Assets/logo.png"
-
+// qui è stata presa una navBar da reactBoostrap ed è stata confrontata con quella dell'esercizio
+// ed è stato fatto un refactor in modo da renderla più leggibile in react
 const MyNav = () => {
   return (
     <Navbar data-bs-theme="dark" expand="lg">

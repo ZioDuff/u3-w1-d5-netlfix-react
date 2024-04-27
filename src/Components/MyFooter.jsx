@@ -1,5 +1,5 @@
 import { Col, Container, Row, Nav } from "react-bootstrap"
-
+// qui viene fatto un refactor del footer in modo da essre più leggibile in react e non creare conflitti
 const MyFooter = () => {
   return (
     <Container fluid as={"footer"}>

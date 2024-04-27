@@ -1,5 +1,7 @@
 import { Col, Container, Dropdown, Form, Row } from "react-bootstrap"
 import ProfileImage from "../Assets/avatar.png"
+// questa è la sezione principale della nostra pagina profile
+// riprende la pagina del mio vecchi progetto ove è stato fatto un refactor
 
 const MyHeroProfile = () => {
   return (
